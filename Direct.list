@@ -75,7 +75,7 @@ DOMAIN,hp.com
 
 #优选IP
 DOMAIN-SUFFIX,xiu2.xyz
-DOMAIN-SUFFIX,jhb.ovh
+DOMAIN,jhb.ovh
 DOMAIN,speedtest.poorhub.pro
 DOMAIN,speed.cloudflare.com
 
