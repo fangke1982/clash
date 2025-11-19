@@ -73,6 +73,9 @@ DOMAIN,us.nanflix.net
 DOMAIN,linux.do
 DOMAIN,hp.com
 
+#优选IP
+DOMAIN-SUFFIX, xiu2.xyz
+DOMAIN, speedtest.poorhub.pro
 
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
