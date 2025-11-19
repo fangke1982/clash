@@ -74,9 +74,10 @@ DOMAIN,linux.do
 DOMAIN,hp.com
 
 #优选IP
-DOMAIN-SUFFIX, xiu2.xyz
-DOMAIN, speedtest.poorhub.pro
-DOMAIN, speed.cloudflare.com
+DOMAIN-SUFFIX,xiu2.xyz
+DOMAIN-SUFFIX,jhb.ovh
+DOMAIN,speedtest.poorhub.pro
+DOMAIN,speed.cloudflare.com
 
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
