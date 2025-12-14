@@ -10,3 +10,6 @@
 # DOMAIN-KEYWORD：域名关键词匹配
 # 如：DOMAIN-KEYWORD, apple, Proxy
 # 如果请求的域包含关键字，则规则匹配。例如：www.apple.com、itunes.apple.com、apple.com、applemusic.com
+
+#docker
+DOMAIN-KEYWORD,docker
