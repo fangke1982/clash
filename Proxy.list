@@ -1,115 +1,12 @@
-# IP段匹配
-IP-CIDR,142.171.133.131/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
-IP-CIDR,104.236.69.0/24,no-resolve
-IP-CIDR,95.161.76.0/24,no-resolve
+# 代理补充列表
+# DOMAIN：完整域名匹配
+# 如：DOMAIN, www.apple.com, Proxy
+# 如果请求的域完全匹配，则规则匹配。
 
-# 国外DNS
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,doh.dns.sb
-DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,hk-hkg.doh.sb
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,185.222.222.222/32,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,208.67.220.220/32,no-resolve
-IP-CIDR,142.250.0.0/16,no-resolve
+# DOMAIN-SUFFIX：匹配域名后缀
+# 如：DOMAIN-SUFFIX, apple.com, Proxy
+# 如果请求的域匹配后缀，则规则匹配。例如：apple.com可匹配www.apple.com、itunse.apple.com和apple.com
 
-# 木偶
-DOMAIN,tv.91muou.icu
-DOMAIN,mo.666291.xyz
-DOMAIN,mo.muouso.fun
-
-# 自用
-# DOMAIN 域名
-# DOMAIN-SUFFIX 域名后缀
-# DOMAIN-KEYWORD 域名关键字
-DOMAIN,myip.ipip.net
-DOMAIN,linux.do
-
-# 其他网站
-DOMAIN-SUFFIX,proxmox.com
-DOMAIN-KEYWORD,debian
-DOMAIN-SUFFIX,stream-link.org
-DOMAIN-SUFFIX,polymarket.com
-DOMAIN-SUFFIX,cacapex.com
-DOMAIN-SUFFIX,1lib.sk
-DOMAIN-SUFFIX,6bcloud.top
-DOMAIN-SUFFIX,viptwo.top
-DOMAIN-SUFFIX,followme.com
-DOMAIN-SUFFIX,followme.ceo
-DOMAIN-SUFFIX,whatsmydns.me
-DOMAIN-SUFFIX,hostloc.net
-DOMAIN-SUFFIX,tmgm.com
-DOMAIN-SUFFIX,plexapp.com
-DOMAIN-SUFFIX,plexmediaserver.com
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,ip111.cn
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ip-score.com
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN-SUFFIX,asiassn.com
-DOMAIN-SUFFIX,ipleak.net
-DOMAIN-SUFFIX,browserleaks.com
-DOMAIN-SUFFIX,browserleaks.org
-DOMAIN-SUFFIX,browserleaks.net
-DOMAIN-SUFFIX,surfsharkdns.com
-DOMAIN-SUFFIX,llgjc1.com
-DOMAIN-SUFFIX,qichiyu.com
-# DOMAIN-SUFFIX,groq.com
-# DOMAIN-SUFFIX,difyai.com
-DOMAIN-SUFFIX,hsy88.org
-DOMAIN-SUFFIX,openwrt.org
-
-DOMAIN-SUFFIX,stotik.com
-DOMAIN-SUFFIX,streetfighter.com
-DOMAIN-SUFFIX,capcom.com
-DOMAIN-SUFFIX,fcdn.sk
-DOMAIN-SUFFIX,kooink.com
-DOMAIN-SUFFIX,nodeseek.com
-
-DOMAIN-SUFFIX,kjfx.cc
-
-DOMAIN-SUFFIX,polivera.ai
-DOMAIN-SUFFIX,asiassn.com
-DOMAIN-SUFFIX,mmcks.top
-DOMAIN-SUFFIX,needay.xyz
-DOMAIN-SUFFIX,mzzxuh.com
-DOMAIN-SUFFIX,lianjiasub.work
-DOMAIN-SUFFIX,muniucloud.pro
-DOMAIN-SUFFIX,kuajing.uk
-DOMAIN-SUFFIX,metacubex.one
-DOMAIN-SUFFIX,xiaoxintv.cc
-DOMAIN-SUFFIX,69yun.top
-DOMAIN-SUFFIX,nivodi.com
-DOMAIN-SUFFIX,steamcommunity.com
-# DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,abcproxy.com
-DOMAIN-SUFFIX,piliapp.com
-DOMAIN-SUFFIX,meijutt.cc
-DOMAIN-SUFFIX,piaohua.com
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,browserscan.net
-DOMAIN-SUFFIX,ipify.org
-DOMAIN-SUFFIX,dnscheck.tools
-DOMAIN-SUFFIX,arin.net
-DOMAIN-SUFFIX,null-addr.com
-DOMAIN-SUFFIX,null-addr.net
-DOMAIN-SUFFIX,null-addr.org
-DOMAIN-SUFFIX,null-addr.biz
-DOMAIN-SUFFIX,null-addr.info
-DOMAIN-SUFFIX,addr.tools
-DOMAIN-SUFFIX,bulianglin.com
-DOMAIN-SUFFIX,coincola.com
-DOMAIN-SUFFIX,coincolacdn.com
-DOMAIN-SUFFIX,colaotc.com
+# DOMAIN-KEYWORD：域名关键词匹配
+# 如：DOMAIN-KEYWORD, apple, Proxy
+# 如果请求的域包含关键字，则规则匹配。例如：www.apple.com、itunes.apple.com、apple.com、applemusic.com
