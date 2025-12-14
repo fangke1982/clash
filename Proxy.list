@@ -34,7 +34,8 @@ DOMAIN,mo.muouso.fun
 # DOMAIN 域名
 # DOMAIN-SUFFIX 域名后缀
 # DOMAIN-KEYWORD 域名关键字
-DOMAIN,myip.ipip.net 
+DOMAIN,myip.ipip.net
+DOMAIN,linux.do
 
 # 其他网站
 DOMAIN-SUFFIX,proxmox.com
