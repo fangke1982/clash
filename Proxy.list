@@ -12,4 +12,4 @@
 # 如果请求的域包含关键字，则规则匹配。例如：www.apple.com、itunes.apple.com、apple.com、applemusic.com
 
 #docker
-DOMAIN-KEYWORD,docker
+DOMAIN-SUFFIX,stirlingpdf.com
