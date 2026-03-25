@@ -11,6 +11,10 @@
 # DOMAIN-KEYWORD：域名关键词匹配
 # 如：DOMAIN-KEYWORD, apple, Proxy
 # 如果请求的域包含关键字，则规则匹配。例如：www.apple.com、itunes.apple.com、apple.com、applemusic.com
+# lucky
+DOMAIN-SUFFIX,66666.host
+DOMAIN-SUFFIX,666666.host:
+DOMAIN-SUFFIX,ddnspod.com
 
 # 王二小
 DOMAIN,9280.kstore.space
@@ -20,6 +24,7 @@ DOMAIN,www.王二小放牛娃.top
 
 #星剧社
 DOMAIN-SUFFIX,star2.cn
+
 # 玩偶
 DOMAIN-SUFFIX,wogg.lol
 DOMAIN-SUFFIX,888484.xyz
