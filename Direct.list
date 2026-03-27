@@ -11,52 +11,60 @@
 # DOMAIN-KEYWORD：域名关键词匹配
 # 如：DOMAIN-KEYWORD, apple, Proxy
 # 如果请求的域包含关键字，则规则匹配。例如：www.apple.com、itunes.apple.com、apple.com、applemusic.com
-# lucky
-DOMAIN-SUFFIX,66666.host
-DOMAIN-SUFFIX,666666.host
-DOMAIN-SUFFIX,ddnspod.com
 
-# 王二小
-DOMAIN,9280.kstore.space
-DOMAIN,tvbox.xn--4kq62z5rby2qupq9ub.top
-DOMAIN,tv.999888987.xyz
-DOMAIN,www.王二小放牛娃.top
+#玩偶
+DOMAIN,wogg.xxooo.cf
+DOMAIN,wogg.333232.xyz
+DOMAIN,www.wogg.net
+DOMAIN,wogg4k.333232.xyz
+
+#木偶
+DOMAIN,www.muou.site
+DOMAIN,www.muou.asia
+DOMAIN,666.666291.xyz
+
+#蜡笔
+DOMAIN,fmao.shop
+
+#至臻
+DOMAIN,www.miqk.cc
+DOMAIN,www.mihdr.top
+DOMAIN,mihdr.top
+
+#二小
+DOMAIN,www.2xiaopan.top
+DOMAIN,2xiaopan.top
+DOMAIN,www.wexwp.cc
+DOMAIN,www.erixaopan.fun
+
+#虎斑
+IP-CIDR,154.222.27.33/32,no-resolve
+DOMAIN,xhban.xyz
+IP-CIDR,103.45.162.207/32,no-resolve
+
+
+#快映
+IP-CIDR,154.201.83.50/32,no-resolve
+DOMAIN,xsayang.fun
+
+#闪电
+DOMAIN,sd.sduc.site
+
+#欧歌
+DOMAIN,woog.nxog.eu.org
 
 #星剧社
 DOMAIN-SUFFIX,star2.cn
 
-# 玩偶
-DOMAIN-SUFFIX,wogg.lol
-DOMAIN-SUFFIX,888484.xyz
-
-# 讴歌
-DOMAIN-SUFFIX,nxog.eu.org
-
-# 小米
-DOMAIN,milvdou.fun
-
 # 摸鱼
 DOMAIN-SUFFIX,xn--v4q818bf34b.com
 DOMAIN,zhuimi.xn--v4q818bf34b.com
-
-# 多多
-DOMAIN,tv.yydsys.cc
-DOMAIN,tv.214521.xyz
-
-# 蜡笔
-DOMAIN,feimaoai.site
-
-# 至臻
-DOMAIN,xiaomiai.site
 
 # github代理
 DOMAIN,gh-proxy.com
 DOMAIN,cdn.gh-proxy.com
 DOMAIN-SUFFIX,moeyy.xyz
 DOMAIN,github.catvod.com
-
-# 二小
-DOMAIN,xhww.net
 
 # 时间服务器
 DOMAIN,time.apple.com
@@ -67,7 +75,6 @@ DOMAIN-KEYWORD,ntp
 DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,playdreamer.cn
-DOMAIN,github.catvod.com
 
 # 自用
 DOMAIN-KEYWORD,fgank
