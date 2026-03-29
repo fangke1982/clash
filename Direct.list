@@ -63,8 +63,8 @@ DOMAIN,zhuimi.xn--v4q818bf34b.com
 # github代理
 DOMAIN,gh-proxy.com
 DOMAIN,cdn.gh-proxy.com
-DOMAIN-SUFFIX,moeyy.xyz
 DOMAIN,github.catvod.com
+DOMAIN,gh.kejilion.pro
 
 # 时间服务器
 DOMAIN,time.apple.com
@@ -84,7 +84,6 @@ DOMAIN-SUFFIX,588279.xyz
 DOMAIN-SUFFIX,istoreos.com
 DOMAIN,myip.ipip.net
 DOMAIN,us.nanflix.net
-DOMAIN,linux.do
 DOMAIN,hp.com
 
 #优选IP
