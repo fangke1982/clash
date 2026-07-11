@@ -14,44 +14,45 @@
 DOMAIN-KEYWORD, libvio
 
 #玩偶
-DOMAIN,wogg.xxooo.cf
-DOMAIN,wogg.333232.xyz
-DOMAIN,www.wogg.net
-DOMAIN,wogg4k.333232.xyz
+DOMAIN-SUFFIX,xxooo.cf
+DOMAIN-SUFFIX,wogg.net
+DOMAIN-SUFFIX,888484.xyz
 
 #木偶
-DOMAIN,www.muou.site
-DOMAIN,www.muou.asia
-DOMAIN,666.666291.xyz
+DOMAIN-SUFFIX,muou.site
+DOMAIN-SUFFIX,muou.asia
+DOMAIN-SUFFIX,666291.xyz
 
 #蜡笔
-DOMAIN,fmao.shop
-DOMAIN,xiaocgege.shop
-DOMAIN,xiaocge.fun
+DOMAIN-SUFFIX,fmao.shop
+DOMAIN-SUFFIX,xiaocgege.shop
+DOMAIN-SUFFIX,xiaocge.fun
 
 #至臻
-DOMAIN,www.miqk.cc
-DOMAIN,www.mihdr.top
-DOMAIN,mihdr.top
+DOMAIN-SUFFIX,miqk.cc
+DOMAIN-SUFFIX,mihdr.top
+DOMAIN-SUFFIX,mihdr.top
+DOMAIN-SUFFIX,zhizhen1.top
 
 #二小
-DOMAIN,www.2xiaopan.top
-DOMAIN,2xiaopan.top
-DOMAIN,www.wexwp.cc
-DOMAIN,www.erixaopan.fun
+DOMAIN-SUFFIX,2xiaopan.top
+DOMAIN-SUFFIX,2xiaopan.top
+DOMAIN-SUFFIX,wexwp.cc
+DOMAIN-SUFFIX,erxiaozhan.top
 
 #虎斑
-IP-CIDR,154.222.27.33/32,no-resolve
-DOMAIN,xhban.xyz
+IP-CIDR,109.244.63.150/32,no-resolve
+DOMAIN-SUFFIX,xhban.xyz
 IP-CIDR,103.45.162.207/32,no-resolve
 
 
 #快映
 IP-CIDR,154.201.83.50/32,no-resolve
-DOMAIN,xsayang.fun
+DOMAIN-SUFFIX,xsayang.fun
 
 #闪电
-DOMAIN,sd.sduc.site
+DOMAIN-SUFFIX,sduc.site
+DOMAIN-SUFFIX,shandian.blog 
 
 #欧歌
 DOMAIN,woog.nxog.eu.org
