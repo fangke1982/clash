@@ -15,4 +15,8 @@
 DOMAIN-SUFFIX,stirlingpdf.com
 DOMAIN-SUFFIX,proxmox.com
 
+#linux
 DOMAIN-SUFFIX,linux.do
+
+#盘搜
+DOMAIN-SUFFIX,pansearch.me
