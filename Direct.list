@@ -87,10 +87,14 @@ DOMAIN-SUFFIX,introdb.app
 DOMAIN-SUFFIX,iturrit.com
 DOMAIN-SUFFIX,aqsa.dpdns.org
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,kugou.com
 DOMAIN-SUFFIX,kuwo.cn
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,migu.cn
+IP-CIDR,175.27.166.236/32,no-resolve
 
 #木兮
 DOMAIN-SUFFIX,symx.club
