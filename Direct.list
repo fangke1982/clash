@@ -95,6 +95,7 @@ DOMAIN-SUFFIX,kuwo.cn
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,migu.cn
 IP-CIDR,175.27.166.236/32,no-resolve
+DOMAIN-KEYWORD,cdn
 
 #木兮
 DOMAIN-SUFFIX,symx.club
